@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Facodes\Route;
+//use Illuminate\Support\Facodes\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,4 +13,4 @@ use Illuminate\Support\Facodes\Route;
 |
 */
 
-Route::get('/posts', 'PostController@index');
+Route::get('/', 'PostController@index');
